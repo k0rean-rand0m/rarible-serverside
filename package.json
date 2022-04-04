@@ -1,0 +1,37 @@
+{
+  "name": "rarible-serverside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "compile": "tsc",
+    "run": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k0rean-rand0m/rarible-serverside.git"
+  },
+  "author": "https://twitter.com/k0rean_rand0m",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k0rean-rand0m/rarible-serverside/issues"
+  },
+  "homepage": "https://github.com/k0rean-rand0m/rarible-serverside#readme",
+  "dependencies": {
+    "@rarible/ethers-ethereum": "^0.12.61",
+    "@rarible/sdk": "^0.8.50-beta3",
+    "@rarible/sdk-wallet": "^0.8.50-beta3",
+    "@rarible/test-provider": "^0.9.3",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^5.6.2",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.2.3",
+    "typescript": "^4.6.3",
+    "web3-provider-engine": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/web3-provider-engine": "^14.0.1"
+  }
+}
